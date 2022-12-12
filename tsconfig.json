@@ -10,7 +10,7 @@
         //        "module": "commonjs",
         /* 指定 ECMAScript 的目标版本: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
         "rootDir": "./src",
-        "target": "es5", // 指定 ECMAScript 目标版本
+        "target": "ESNext", // 指定 ECMAScript 目标版本
         "module": "ESNext", //指定生成那个模块的代码
         "strict": true, // 开启所有的严格检查配置
         "esModuleInterop": true, // 允许 export = xxx 导出 ，并使用 import xxx form "module-name" 导入
@@ -74,5 +74,5 @@
     "exclude": [
         "node_modules",
         "dist"
-    ] // *** 不进行类型检查的文件 ***
+    ], // *** 不进行类型检查的文件 ***
 }

@@ -2,12 +2,10 @@ var isDev = false;
 if (process.env.NODE_ENV === 'dev') {
   isDev = true;
 }
-module.exports = function (api) {
+module.exports = function(api) {
   api.cache(true);
   const presets = [
-    [
-      '@babel/preset-react',
-    ],
+    ['@babel/preset-react'],
     [
       '@babel/preset-env',
       {
