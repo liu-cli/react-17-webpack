@@ -7,7 +7,7 @@ const { SRC_PATH, DIST_PATH, IS_DEV, IS_PRO, getCDNPath } = variable;
 
 const config = {
   entry: {
-    index: path.join(SRC_PATH, "index.tsx"),
+    index: path.join(SRC_PATH, "main.tsx"),
   },
   output: {
     path: DIST_PATH,
